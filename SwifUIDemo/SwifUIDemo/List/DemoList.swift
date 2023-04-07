@@ -19,29 +19,29 @@ struct DemoList: View {
     var body: some View {
 
         ZStack {
-            
-            Color.gray.opacity(0.1)
-            
-            List {
-                ForEach(0 ..< 12) { index in
-                    ProductCell()
-                        .background(
-                            Color.yellow
-                        )
+            NavigationView {
+                ScrollView {
+                    LazyVStack {
+                        ForEach(0 ..< 12) { index in
+                            ProductCell()
+                                .padding(.horizontal, 12)
+                        }
+                    }
                 }
+                .navigationTitle(navText)
+                .background(
+                    Color.gray.opacity(0.2)
+                )
             }
-            .listRowSeparator(.hidden)
-            .listStyle(.plain)
-            .background(
-                Color.green
-            )
-            .onAppear {
-                
-                
-            }
-            
+            .navigationBarTitleDisplayMode(.large)
         }
+        .edgesIgnoringSafeArea(.top)
         
+    }
+    
+    var navText: Text {
+        Text("APP")
+            .font(.system(size: 42, weight: .semibold))
     }
 }
 
