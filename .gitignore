@@ -88,3 +88,68 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+SwifUIDemo/Podfile.lock
+SwifUIDemo/Pods/Manifest.lock
+SwifUIDemo/Pods/HandyJSON/LICENSE
+SwifUIDemo/Pods/HandyJSON/README.md
+SwifUIDemo/Pods/HandyJSON/Source/AnyExtensions.swift
+SwifUIDemo/Pods/HandyJSON/Source/BuiltInBasicType.swift
+SwifUIDemo/Pods/HandyJSON/Source/BuiltInBridgeType.swift
+SwifUIDemo/Pods/HandyJSON/Source/CBridge.swift
+SwifUIDemo/Pods/HandyJSON/Source/Configuration.swift
+SwifUIDemo/Pods/HandyJSON/Source/ContextDescriptorType.swift
+SwifUIDemo/Pods/HandyJSON/Source/CustomDateFormatTransform.swift
+SwifUIDemo/Pods/HandyJSON/Source/DataTransform.swift
+SwifUIDemo/Pods/HandyJSON/Source/DateFormatterTransform.swift
+SwifUIDemo/Pods/HandyJSON/Source/DateTransform.swift
+SwifUIDemo/Pods/HandyJSON/Source/Deserializer.swift
+SwifUIDemo/Pods/HandyJSON/Source/EnumTransform.swift
+SwifUIDemo/Pods/HandyJSON/Source/EnumType.swift
+SwifUIDemo/Pods/HandyJSON/Source/Export.swift
+SwifUIDemo/Pods/HandyJSON/Source/ExtendCustomBasicType.swift
+SwifUIDemo/Pods/HandyJSON/Source/ExtendCustomModelType.swift
+SwifUIDemo/Pods/HandyJSON/Source/FieldDescriptor.swift
+SwifUIDemo/Pods/HandyJSON/Source/HandyJSON.h
+SwifUIDemo/Pods/HandyJSON/Source/HelpingMapper.swift
+SwifUIDemo/Pods/HandyJSON/Source/HexColorTransform.swift
+SwifUIDemo/Pods/HandyJSON/Source/ISO8601DateTransform.swift
+SwifUIDemo/Pods/HandyJSON/Source/Logger.swift
+SwifUIDemo/Pods/HandyJSON/Source/MangledName.swift
+SwifUIDemo/Pods/HandyJSON/Source/Measuable.swift
+SwifUIDemo/Pods/HandyJSON/Source/Metadata.swift
+SwifUIDemo/Pods/HandyJSON/Source/NSDecimalNumberTransform.swift
+SwifUIDemo/Pods/HandyJSON/Source/OtherExtension.swift
+SwifUIDemo/Pods/HandyJSON/Source/PointerType.swift
+SwifUIDemo/Pods/HandyJSON/Source/Properties.swift
+SwifUIDemo/Pods/HandyJSON/Source/PropertyInfo.swift
+SwifUIDemo/Pods/HandyJSON/Source/ReflectionHelper.swift
+SwifUIDemo/Pods/HandyJSON/Source/Serializer.swift
+SwifUIDemo/Pods/HandyJSON/Source/Transformable.swift
+SwifUIDemo/Pods/HandyJSON/Source/TransformOf.swift
+SwifUIDemo/Pods/HandyJSON/Source/TransformType.swift
+SwifUIDemo/Pods/HandyJSON/Source/URLTransform.swift
+SwifUIDemo/Pods/Pods.xcodeproj/project.pbxproj
+SwifUIDemo/Pods/Target Support Files/HandyJSON/HandyJSON-dummy.m
+SwifUIDemo/Pods/Target Support Files/HandyJSON/HandyJSON-Info.plist
+SwifUIDemo/Pods/Target Support Files/HandyJSON/HandyJSON-prefix.pch
+SwifUIDemo/Pods/Target Support Files/HandyJSON/HandyJSON-umbrella.h
+SwifUIDemo/Pods/Target Support Files/HandyJSON/HandyJSON.debug.xcconfig
+SwifUIDemo/Pods/Target Support Files/HandyJSON/HandyJSON.modulemap
+SwifUIDemo/Pods/Target Support Files/HandyJSON/HandyJSON.release.xcconfig
+SwifUIDemo/Pods/Target Support Files/Pods-SwifUIDemo/Pods-SwifUIDemo-acknowledgements.markdown
+SwifUIDemo/Pods/Target Support Files/Pods-SwifUIDemo/Pods-SwifUIDemo-acknowledgements.plist
+SwifUIDemo/Pods/Target Support Files/Pods-SwifUIDemo/Pods-SwifUIDemo-dummy.m
+SwifUIDemo/Pods/Target Support Files/Pods-SwifUIDemo/Pods-SwifUIDemo-frameworks-Debug-input-files.xcfilelist
+SwifUIDemo/Pods/Target Support Files/Pods-SwifUIDemo/Pods-SwifUIDemo-frameworks-Debug-output-files.xcfilelist
+SwifUIDemo/Pods/Target Support Files/Pods-SwifUIDemo/Pods-SwifUIDemo-frameworks-Release-input-files.xcfilelist
+SwifUIDemo/Pods/Target Support Files/Pods-SwifUIDemo/Pods-SwifUIDemo-frameworks-Release-output-files.xcfilelist
+SwifUIDemo/Pods/Target Support Files/Pods-SwifUIDemo/Pods-SwifUIDemo-frameworks.sh
+SwifUIDemo/Pods/Target Support Files/Pods-SwifUIDemo/Pods-SwifUIDemo-Info.plist
+SwifUIDemo/Pods/Target Support Files/Pods-SwifUIDemo/Pods-SwifUIDemo-umbrella.h
+SwifUIDemo/Pods/Target Support Files/Pods-SwifUIDemo/Pods-SwifUIDemo.debug.xcconfig
+SwifUIDemo/Pods/Target Support Files/Pods-SwifUIDemo/Pods-SwifUIDemo.modulemap
+SwifUIDemo/Pods/Target Support Files/Pods-SwifUIDemo/Pods-SwifUIDemo.release.xcconfig
+SwifUIDemo/SwifUIDemo.xcodeproj/xcshareddata/xcschemes/SwifUIDemo.xcscheme
+SwifUIDemo/SwifUIDemo.xcodeproj/xcshareddata/xcschemes/SwifUIDemo01.xcscheme
+SwifUIDemo/SwifUIDemo.xcworkspace/contents.xcworkspacedata
+SwifUIDemo/SwifUIDemo.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
