@@ -23,9 +23,8 @@ struct DemoList: View {
                 GeometryReader { proxy in
                     ScrollView {
                         LazyVStack {
-                           
-                            ForEach(0 ..< 12) { index in
-                                ProductCell()
+                            ForEach(viewModel.products, id: \.uuid) { product in
+                                ProductCell(product: product)
                                     .padding(.horizontal, 12)
                             }
                         }
@@ -35,7 +34,7 @@ struct DemoList: View {
                         Color.gray.opacity(0.2)
                      )
                     .onAppear {
-
+                        viewModel.loadProducts()
                     }
                 }
             }

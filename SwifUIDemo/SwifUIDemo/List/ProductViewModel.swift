@@ -26,6 +26,7 @@ class ProductViewModel: ObservableObject {
         } catch {
             print(error)
         }
+        print("products = \(products)")
     }
     
 }

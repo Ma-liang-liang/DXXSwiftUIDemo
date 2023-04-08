@@ -8,9 +8,9 @@
 import SwiftUI
 import HandyJSON
 
-class ProductModel: ObservableObject, HandyJSON {
+class ProductModel: ObservableObject, HandyJSON, Identifiable {
     
-//    let uuid = UUID().uuidString
+    let uuid = UUID().uuidString
     
     var artistId = 0
     
