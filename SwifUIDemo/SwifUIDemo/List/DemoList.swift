@@ -10,8 +10,8 @@ import Combine
 
 struct DemoList: View {
     
-//    @ObservedObject private var products: [ProductModel] = []
-    
+    @StateObject private var viewModel = ProductViewModel()
+        
     init() {
         UITableView.appearance().backgroundColor = .clear
     }
@@ -20,18 +20,24 @@ struct DemoList: View {
 
         ZStack {
             NavigationView {
-                ScrollView {
-                    LazyVStack {
-                        ForEach(0 ..< 12) { index in
-                            ProductCell()
-                                .padding(.horizontal, 12)
+                GeometryReader { proxy in
+                    ScrollView {
+                        LazyVStack {
+                           
+                            ForEach(0 ..< 12) { index in
+                                ProductCell()
+                                    .padding(.horizontal, 12)
+                            }
                         }
                     }
+                    .navigationTitle(navText)
+                    .background(
+                        Color.gray.opacity(0.2)
+                     )
+                    .onAppear {
+
+                    }
                 }
-                .navigationTitle(navText)
-                .background(
-                    Color.gray.opacity(0.2)
-                )
             }
             .navigationBarTitleDisplayMode(.large)
         }

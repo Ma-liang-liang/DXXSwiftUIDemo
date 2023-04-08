@@ -6,8 +6,9 @@
 //
 
 import SwiftUI
+import HandyJSON
 
-class ProductModel: ObservableObject {
+class ProductModel: ObservableObject, HandyJSON {
     
 //    let uuid = UUID().uuidString
     
@@ -23,6 +24,8 @@ class ProductModel: ObservableObject {
     
     @Published var isLike = false
     
+    required init() {}
+    
     static func getDefaultModel() -> ProductModel {
         
         let model = ProductModel()
@@ -34,18 +37,3 @@ class ProductModel: ObservableObject {
     }
 }
 
-func loadAppList() -> [ProductModel]? {
-    
-    guard let url = Bundle.main.url(forResource: "001", withExtension: "json") else {
-        return nil
-    }
-    do {
-        let data = try Data(contentsOf: url)
-        let jsonDecoder = JSONDecoder()
-       
-    } catch {
-        print(error)
-    }
-    
-    return nil
-}
