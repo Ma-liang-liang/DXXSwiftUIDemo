@@ -11,10 +11,6 @@ import Combine
 struct DemoList: View {
     
     @StateObject private var viewModel = ProductViewModel()
-        
-    init() {
-        UITableView.appearance().backgroundColor = .clear
-    }
     
     var body: some View {
 
@@ -38,7 +34,7 @@ struct DemoList: View {
                     }
                 }
             }
-            .navigationBarTitleDisplayMode(.large)
+            .navigationBarTitleDisplayMode(.inline)
         }
         .edgesIgnoringSafeArea(.top)
         

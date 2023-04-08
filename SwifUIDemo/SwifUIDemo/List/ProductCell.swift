@@ -43,7 +43,6 @@ struct ProductCell: View {
             AsyncImage(url: URL(string: product.artworkUrl60)) { phase in
                 if let image = phase.image {
                     image.resizable()
-                        .frame(width: 80, height: 80)
                         .cornerRadius(12)
                         .overlay(
                             RoundedRectangle(cornerRadius: 12, style: .continuous)
@@ -51,7 +50,6 @@ struct ProductCell: View {
                         )
                 } else if phase.error != nil {
                     Color.yellow
-                        .frame(width: 80, height: 80)
                 } else {
                     ProgressView()
                 }
@@ -98,7 +96,6 @@ struct ProductCell: View {
 }
 
 struct ProductCell_Previews: PreviewProvider {
-
     
     static var previews: some View {
         ProductCell(product: getDefaultModel())
