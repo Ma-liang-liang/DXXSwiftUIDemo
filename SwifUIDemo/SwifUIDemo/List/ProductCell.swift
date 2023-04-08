@@ -12,10 +12,8 @@ struct ProductCell: View {
     @ObservedObject var product: ProductModel
     
     var body: some View {
-        HStack {
-            cellBody
-                .cornerRadius(12)
-        }
+        cellBody
+            .cornerRadius(12)
     }
     
     var cellBody: some View {
@@ -91,7 +89,7 @@ struct ProductCell: View {
                      .frame(width: 20, height: 20)
                      .foregroundColor(Color.red)
              } else {
-                Image(systemName: "heart")
+               Image(systemName: "heart")
                        .resizable()
                        .frame(width: 20, height: 20)
              }
