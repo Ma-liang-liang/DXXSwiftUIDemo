@@ -99,7 +99,7 @@ struct ProductCell_Previews: PreviewProvider {
     
     static var previews: some View {
         ProductCell(product: getDefaultModel())
-            .previewLayout(.fixed(width: .infinity, height: 120))
+            .previewLayout(.sizeThatFits)
     }
     
     static func getDefaultModel() -> ProductModel {
